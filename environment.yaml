@@ -1,13 +1,14 @@
 name: myparflowenv
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.9
+  - python=3.12
   - geopandas
   - rasterio
-  - pftools
   - matplotlib
   - numpy
   - pip
   - pip:
-    - -e .   # 安装你的自定义包
+    - pftools[pfb]         # 通过 pip 安装 pftools 和 ParFlow I/O 组件
+    - -e .                 # 以可编辑模式安装你的 myparflowtools 包
