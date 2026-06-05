@@ -16,8 +16,7 @@ setup(
         "shapely",
         "fiona",
         "matplotlib",
-        "pftools",
-        "parflowio",       # 确保 PFB 读写底层库
+        "pftools", 
         "pyyaml",
         "xarray",
         "dask",
