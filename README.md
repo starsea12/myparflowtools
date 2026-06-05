@@ -5,7 +5,7 @@
 ```
 ParFlow-CONCN-Share-Platform/
 ├── setup.py
-├── environment.yml
+├── environment.yaml
 ├── README.md
 └── concnshare/
 ├── init.py
