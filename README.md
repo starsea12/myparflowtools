@@ -1,9 +1,11 @@
 # ParFlow CONCN Share Platform  
-本平台用于共享ParFlow-CONCN模型。  
+**本平台用于共享ParFlow-CONCN模型。**  
+
 ParFlow-CONCN 1.0模型是约1公里水平分辨率，纵深492m的地表水-地下水集成水文模型。1.1版本正在建设中，可与CLM或CoLM耦合运行，用于探究地下水与陆面过程的双向交互作用。  
+
 用户可通过本平台裁剪用于目标流域ParFlow模拟的所有基础输入文件，如：流域mask文件、初始压力场分布、水平x、y方向坡度文件、manning粗糙系数、含水介质水力参数、基岩深度、用于不规则流域模拟的solid文件等。  
 
-若您使用了本工具及生成的文件用于生产、研究，请引用：  
+**若您使用了本工具及生成的文件用于生产、研究，请引用：**  
 Yang C, Jia ZT, Xu WJ#, Wei ZW, Zhang XL, Zou YG, Mcdonnell JJ, Condon LE, Dai YJ, Maxwell RM, 2025. CONCN: a high-resolution, integrated surface water-groundwater ParFlow modeling platform of continental China. Hydrology and Earth System Sciences, 29(9): 220-2218.  
 
 ## 项目结构如下：
